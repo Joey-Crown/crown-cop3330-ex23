@@ -35,25 +35,36 @@ public class App
     {
         Scanner input = new Scanner(System.in);
 
+        //get input (y/n)
         System.out.println("Is the car silent when you turn the key? (y/n)");
         String yesOrNo = input.nextLine();
 
-        if(yesOrNo.equals("y")) {
+        //decision tree
+        if(yesOrNo.equals("y"))
+        {
             System.out.println("Are the battery terminals corroded? (y/n)");
             yesOrNo = input.nextLine();
 
-            if(yesOrNo.equals("y")) {
+            if(yesOrNo.equals("y"))
+            {
                 System.out.println("Clean terminals and try starting again.");
-            } else {
+            }
+            else
+            {
                 System.out.println("Replace cables and try again.");
             }
-        } else {
+        }
+        else
+        {
             System.out.println("Does the car make a slicking noise? (y/n)");
             yesOrNo = input.nextLine();
 
-            if(yesOrNo.equals("y")) {
+            if(yesOrNo.equals("y"))
+            {
                 System.out.println("Replace the battery.");
-            } else {
+            }
+            else
+            {
                 System.out.println("Does the car crank up but fail to start? (y/n)");
                 yesOrNo = input.nextLine();
 

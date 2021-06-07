@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b03ddbfd-407f-4831-9090-3737890da0a3" name="Default Changelist" comment="" />
+    <list default="true" id="b03ddbfd-407f-4831-9090-3737890da0a3" name="Default Changelist" comment="fixed issue with scanner">
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crown-cop3330-ex21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,6 +50,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +112,16 @@
       <workItem from="1623033888940" duration="338000" />
       <workItem from="1623034240185" duration="1101000" />
       <workItem from="1623036767728" duration="31000" />
+      <workItem from="1623037249547" duration="305000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed issue with scanner">
+      <created>1623037337851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623037337851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +137,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed issue with scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue with scanner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
