@@ -37,7 +37,6 @@ public class App
 
         System.out.println("Is the car silent when you turn the key? (y/n)");
         String yesOrNo = input.nextLine();
-        input.next();
 
         if(yesOrNo.equals("y")) {
             System.out.println("Are the battery terminals corroded? (y/n)");
